@@ -49,3 +49,7 @@ pixel 단위로 화면을 디자인(위치)할 수 있지만 정적인 방법이
 - flex-grow, flex-shrink는 child에게 줄 수 있는 property이다. 반응형 디자인을 할 때 도움이 된다.
 - flex-shrink : element의 너비 또는 높이가 줄어들 때 주어진 값만큼 다른 element들에 비해 더 줄어든다 (기본값 1)
 - flex-grow : element들 사이에 공간이 남을때 남는 공간만큼 늘어난다. / 화면이 커질 때 같이 커지길 원할 때 사용
+
+# 1.7 flex-basis
+- flex-basis는 element의 크기변화 전에 처음 크기를 지정해준다.
+- main-axis를 기준으로 아이템의 크기를 변경한다(row:너비/column:높이)
