@@ -7,5 +7,14 @@ nomadoders [SCSS-layout-masterclass]
 pixel 단위로 화면을 디자인(위치)할 수 있지만 정적인 방법이라 디스플레이의 크키가 다른 디바이스에서 호환이 안된다.
 
 1.1 First Rule of Flexbox
-- Flexbox에서 box를 움직이기 위해선 Flexcontanier안에 있어야 한다.
-- Flexbox의 Flexcontanier 적용 범위는 직접적인 자식(바로 붙어있는 부모-자식 관계)까지 이다.
+- Flexbox에서 box를 움직이기 위해선 Flex contanier안에 있어야 한다.
+- Flexbox의 Flex contanier 적용 범위는 직접적인 자식(바로 붙어있는 부모-자식 관계)까지 이다.
+
+1.2 Main Axis and Cross Axis 
+- flexbox를 다루려면 주축(main axis)과 교차축(cross axis)이라는 두 개의 축에 대한 정의를 알아야 한다.
+- 주축은 flex-direction 속성을 사용하여 지정하며 교차축은 이에 수직인 축으로 결정
+
+- main axix = flex-direction (default=row)
+- Flex contanier의 flex-direction 기본값은 row
+- justify-content는 main axis 방향으로 item을 옮김
+- align-item 은 cross axis 방향으로 item을 옮김(부모의 height값이 존재해야한다.)
