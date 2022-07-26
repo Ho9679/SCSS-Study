@@ -44,3 +44,8 @@ pixel 단위로 화면을 디자인(위치)할 수 있지만 정적인 방법이
 - justify-content와 비슷하지만 'line'에 관한 것 (각 block이 여러 행에 걸쳐 나올 때, 행간 공백을 얼마나 둘 건지?)
 - align-content: flex-start; (item 간에 line이 flexbox의 시작점과 맞닿음)
 - align-content: space-around; (위 아래 동일한 공간을 두고 있음)
+
+# 1.6 flex-grow, flex-shrink
+- flex-grow, flex-shrink는 child에게 줄 수 있는 property이다. 반응형 디자인을 할 때 도움이 된다.
+- flex-shrink : element의 너비 또는 높이가 줄어들 때 주어진 값만큼 다른 element들에 비해 더 줄어든다 (기본값 1)
+- flex-grow : element들 사이에 공간이 남을때 남는 공간만큼 늘어난다. / 화면이 커질 때 같이 커지길 원할 때 사용
