@@ -21,3 +21,8 @@ pixel 단위로 화면을 디자인(위치)할 수 있지만 정적인 방법이
 
 # 1.3 Column and Row / flex-direction의 축
 - Flex direction(row, column)에 따른 main axis와 cross axis 차이
+
+# 1.4 align-self and order / 하나의 엘리먼트에 align-items값을 개별적으로 주는 방법
+- align-self : align-self CSS 속성은 하나의 그리드 또는 하나의 플렉스 아이템의 align-items 값을 재정의한다.
+- order : 단어 그대로 순서를 바꾼다. 기본 값(default)은 0
+- order를 1로 줄 경우 order를 주지 않은 것보다 뒤에 위치하게 된다. HTML을 통해 순서를 바꾸기 힘들 때 사용하면 좋다.
