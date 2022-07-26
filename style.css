@@ -1,14 +1,14 @@
+body {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+}
+
 .box {
-  background: blue;
-  width: 300px;
-  height: 300px;
-  margin-bottom: 2px;
-  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: peru;
   color: white;
-}
-.box:nth-child(2) {
-  margin-left: 15px;
-}
-.box:nth-child(3) {
-  margin-left: 15px;
 }
