@@ -1,16 +1,16 @@
 nomadoders [SCSS-layout-masterclass]
 
-1.0 Life Before Flexbox / Flexbox와 grid를 배우기전 작업하는 방식에 대한 설명
+# 1.0 Life Before Flexbox / Flexbox와 grid를 배우기전 작업하는 방식에 대한 설명
 - inline-block : block속성을 가지고 있어 너비와 높이가 있다.
 - inline : element(ex: text), 유동적인 것이라서 너비와 높이가 없다.
 
 pixel 단위로 화면을 디자인(위치)할 수 있지만 정적인 방법이라 디스플레이의 크키가 다른 디바이스에서 호환이 안된다.
 
-1.1 First Rule of Flexbox
+# 1.1 First Rule of Flexbox
 - Flexbox에서 box를 움직이기 위해선 Flex contanier안에 있어야 한다.
 - Flexbox의 Flex contanier 적용 범위는 직접적인 자식(바로 붙어있는 부모-자식 관계)까지 이다.
 
-1.2 Main Axis and Cross Axis 
+# 1.2 Main Axis and Cross Axis / Flexbox 두 개의 축과 item 위치
 - flexbox를 다루려면 주축(main axis)과 교차축(cross axis)이라는 두 개의 축에 대한 정의를 알아야 한다.
 - 주축은 flex-direction 속성을 사용하여 지정하며 교차축은 이에 수직인 축으로 결정
 
@@ -18,3 +18,6 @@ pixel 단위로 화면을 디자인(위치)할 수 있지만 정적인 방법이
 - Flex contanier의 flex-direction 기본값은 row
 - justify-content는 main axis 방향으로 item을 옮김
 - align-item 은 cross axis 방향으로 item을 옮김(부모의 height값이 존재해야한다.)
+
+# 1.3 Column and Row / flex-direction의 축
+- Flex direction(row, column)에 따른 main axis와 cross axis 차이

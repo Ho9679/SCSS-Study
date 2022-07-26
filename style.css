@@ -1,8 +1,11 @@
 .wrapper {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  height: 100vh;
+  flex-direction: column;
+  /* Main Axis */
+  justify-content: center;
+  /* Main Axis */
+  align-items: center;
+  height: 200vh;
 }
 
 .box {
