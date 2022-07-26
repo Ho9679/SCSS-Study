@@ -1,2 +1,6 @@
 nomadoders [SCSS-layout-masterclass]
 
+1.0 Life Before Flexbox / Flexbox와 grid를 배우기전 작업하는 방식에 대한 설명
+- inline-block : block속성을 가지고 있어 너비와 높이가 있다.
+- inline : element(ex: text), 유동적인 것이라서 너비와 높이가 없다.
+pixel 단위로 화면을 디자인(위치)할 수 있지만 정적인 방법이라 디스플레이의 크키가 다른 디바이스에서 호환이 안된다.
