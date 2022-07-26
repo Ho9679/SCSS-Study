@@ -26,3 +26,21 @@ pixel 단위로 화면을 디자인(위치)할 수 있지만 정적인 방법이
 - align-self : align-self CSS 속성은 하나의 그리드 또는 하나의 플렉스 아이템의 align-items 값을 재정의한다.
 - order : 단어 그대로 순서를 바꾼다. 기본 값(default)은 0
 - order를 1로 줄 경우 order를 주지 않은 것보다 뒤에 위치하게 된다. HTML을 통해 순서를 바꾸기 힘들 때 사용하면 좋다.
+
+# 1.5 wrap, nowrap, reverse, align-content
+ 1. flex-wrap
+- flexbox는 width보다도, '같은 줄'에 있도록 하는 것을 우선시함
+- flex-wrap : 기본 값(default)은 nowrap
+- wrap : item의 크기를 유지하며 나열
+- nowrap : item의 크기를 무시하고 나열(같은 줄에 나열width가 줄어들 수 있음)
+
+ 2. reverse
+- flex-direction: row-reverse; (오른쪽에서부터 1이 시작)
+- flex-direction: column-reverse; (아래부터 위로)
+- flex-wrap: wrap-reverse; (한 줄이 되지 않아도 아래에서 위로 정렬)
+
+* wrap으로 정렬 시 (여러 줄으로, 각 item의 width를 유지하면서)
+각 줄(기본: row) 간의 간격이 생기는데, 이것을 'align-content'라는 property로 조절 가능
+- justify-content와 비슷하지만 'line'에 관한 것 (각 block이 여러 행에 걸쳐 나올 때, 행간 공백을 얼마나 둘 건지?)
+- align-content: flex-start; (item 간에 line이 flexbox의 시작점과 맞닿음)
+- align-content: space-around; (위 아래 동일한 공간을 두고 있음)
